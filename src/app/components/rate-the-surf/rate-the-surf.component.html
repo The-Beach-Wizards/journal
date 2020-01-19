@@ -1,0 +1,20 @@
+<p>Value: {{ personalRating }}</p>
+
+<div>
+  <span>
+    BLEEEHHH
+  </span>
+
+  <mat-slider
+    (input)="personalRating = $event.value"
+    [value]="personalRating"
+    min="1"
+    max="10"
+    step="1"
+    value="1"
+  ></mat-slider>
+
+  <span>
+    YIIIEEEW
+  </span>
+</div>
